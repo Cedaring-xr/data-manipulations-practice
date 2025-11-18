@@ -15,3 +15,7 @@
 // 39. Given an array of objects with users, return the ones that are over 18 years of age
 
 // 40. Given an object with student test scores, return the average of all test scores
+
+// 41. Given an object with neseted objects inside, write a function that flattens the object back to a single depth of values
+
+// 9. Given an array of objects, return all unique values of a specific key
