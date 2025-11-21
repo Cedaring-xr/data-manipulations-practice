@@ -19,3 +19,5 @@
 // 41. Given an object with neseted objects inside, write a function that flattens the object back to a single depth of values
 
 // 9. Given an array of objects, return all unique values of a specific key
+
+// 10. Given an array of numbers, count the number of times each number appears and return an object with the number and count for each array element
