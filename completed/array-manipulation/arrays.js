@@ -170,6 +170,11 @@ const doMath = (arr) => {
 	return { total: final, all: squared }
 }
 console.log(doMath([3, 5, 6, 7, 8, 9, 12, 1, 34, 45]))
+
+const mathMap = (arr) => {
+	return arr.map((num) => num * num)
+}
+console.log(mathMap([3, 5, 6, 7, 8, 9, 12, 1, 34, 45]))
 // 21. Given a string of paragraph text, return an array of each word with punctuation removed
 const separateString = (str) => {
 	let newString = str.replace(/[^\w\s]/g, '')
@@ -177,3 +182,6 @@ const separateString = (str) => {
 	return newArr
 }
 console.log(separateString("Starting, with some string? Nah, it's different isn't it?"))
+// 22. Given an array of words, group them by their starting letter and return a nested array of grouped values
+
+// 23. given an array of numbers, return the top X largest numbers

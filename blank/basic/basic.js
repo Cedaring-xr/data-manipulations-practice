@@ -17,5 +17,3 @@
 // 9. Given a string of text, find the longest word in the string and return the length and the word
 
 // 10. Given two different words as strings, check if the two are anagrams of each other
-
-// 11.

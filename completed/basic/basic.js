@@ -121,3 +121,4 @@ function sortAll(...args) {
 }
 console.log(sortAll('test', 'other', 'third', 'more'))
 console.log(sortAll('something', 'another'))
+// 13. Given a string of paragraph text, count how many unique words appear
