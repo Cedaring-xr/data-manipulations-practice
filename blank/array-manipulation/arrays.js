@@ -1,39 +1,45 @@
-// 5. Given an array of numbers, find the maximum value in the array
+// 1. Given an array of numbers, find the maximum value in the array
 
-// 6. Given an array of numbers, sum all of the numbers in the array
+// 2. Given an array of numbers, sum all of the numbers in the array
 
-// 9. Given an array, filter out any falsy values and then return the updated array
+// 3. Given an array of mixed types, sum all of the numbers and return that value
 
-// 11. Given two arrays of numbers, combine them into one array while removing duplicates
+// 4. Given an array, filter out any falsy values and then return the updated array
 
-// 13. Given a nested array, flatten and return as a single array
+// 5. Given two arrays of numbers, combine them into one array while removing all duplicates
 
-// 14. Given an array of objects, return all unique values of a specific key
+// 6. given two arrays of numbers, combine them into one array while only removing duplicates from both arrays
 
-// 17. Given an array of numbers, chunk the array into groups of a specific size
+// 7. Given a nested array, flatten and return as a single array
 
-// 20. Find the intersection of two arrays by returning a new array containing elements found in both input arrays
+// 8. Given a nested array of values, flatten it only one level
 
-// 24. Given an array, return the most frequent element in the array
+// 9. Given an array of numbers, chunk the array into groups of a specific size
 
-// 28. Given an array of numbers, return another array with each value multiplied by a spcific amount
+// 10. Find the intersection of two arrays by returning a new array containing elements found in both input arrays
 
-// 29. Given an array of numbers, filter out any negative numbers
+// 11. Given an array, return the most frequent element in the array
 
-// 30. Given an array of numbers, separate into two arrays one for even numbers and one for odd
+// 12. Given an array of numbers, return another array with each value multiplied by a spcific amount
 
-// 31. Given an array of numbers, find the first number greater than 10
+// 13. Given an array of numbers, filter out any negative numbers
 
-// 34. Given an array of numbers, count how many numbers are greater than 10
+// 14. Given an array of numbers, separate into two arrays one for even numbers and one for odd
 
-// 32. Given an array of words, return an new array with the length of each word
+// 15. Given an array of numbers, find the first number greater than a specificed number
 
-// 33. Write a function that joins an array of strings into a single sentence string with punctuation
+// 16. Given an array of numbers, count how many numbers are greater than 10
 
-// 35. Given an array of words, sort them in alphabetical order and return as a new array
+// 17. Given an array of words, return an new array with the length of each word
 
-// 37. Write a function that takes in an array of numbers, squares all numbers, the filters out any values that divide by 5 evenly, then sum all of the remaining numbers as a single output
+// 18. Write a function that joins an array of strings into a single sentence string with punctuation
 
-// 41. Given an array of mixed values, remove all null or undefined values
+// 19. Given an array of words, sort them in alphabetical order and return as a new array
 
-// 42. Given a string of paragraph text, return an array of each word with punctuation removed
+// 20. Write a function that takes in an array of numbers, squares all numbers, the filters out any values that divide by 5 evenly, then sum all of the remaining numbers as a single output
+
+// 21. Given a string of paragraph text, return an array of each word with punctuation removed
+
+// 22. Given an array of words, group them by their starting letter and return a nested array of grouped values
+
+// 23. given an array of numbers, return the top X largest numbers

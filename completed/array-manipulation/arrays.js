@@ -156,7 +156,7 @@ function alpha(arr) {
 }
 console.log(alpha(['this', 'should', 'be', 'sorted', 'alphabetically']))
 console.log(alpha(['This', 'Should', 'be', 'sorted', 'alphabetically']))
-// 19. Write a function that takes in an array of numbers, squares all numbers, the filters out any values that divide by 5 evenly, then sum all of the remaining numbers as a single output
+// 20. Write a function that takes in an array of numbers, squares all numbers, the filters out any values that divide by 5 evenly, then sum all of the remaining numbers as a single output
 const doMath = (arr) => {
 	let squared = []
 	let final = 0
@@ -183,5 +183,23 @@ const separateString = (str) => {
 }
 console.log(separateString("Starting, with some string? Nah, it's different isn't it?"))
 // 22. Given an array of words, group them by their starting letter and return a nested array of grouped values
+const groupedWords = (arr) => {
+	const newArr = arr.sort()
+	const groups = {}
+	for (let item of newArr) {
+		const letter = item[0].toLowerCase()
 
+		if (!groups[letter]) {
+			groups[letter] = []
+		}
+		groups[letter].push(item)
+	}
+	return Object.values(groups)
+}
+console.log(groupedWords(['first', 'second', 'array', 'animal', 'fire', 'create', 'basic', 'jumping']))
 // 23. given an array of numbers, return the top X largest numbers
+function topNumbers(arr, num) {
+	const sorted = arr.sort((a, b) => a - b)
+	return sorted.slice(0, num)
+}
+console.log(topNumbers([23, 4, 56, 78, 432, 23, -12, 0], 3))

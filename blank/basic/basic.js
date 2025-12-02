@@ -16,4 +16,10 @@
 
 // 9. Given a string of text, find the longest word in the string and return the length and the word
 
-// 10. Given two different words as strings, check if the two are anagrams of each other
+// 10. Write a function that sorts letters of a string alphabetically
+
+// 11. Given two different words as strings, check if the two are anagrams of each other
+
+// 12. Write a function that takes in an unknown number of string arguments and returns them sorted alphabetically
+
+// 13. Given a string of paragraph text, count how many unique words appear

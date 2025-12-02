@@ -122,3 +122,9 @@ function sortAll(...args) {
 console.log(sortAll('test', 'other', 'third', 'more'))
 console.log(sortAll('something', 'another'))
 // 13. Given a string of paragraph text, count how many unique words appear
+function uniqueWords(str) {
+	let words = str.toLowerCase().split(' ')
+	const unique = new Set(words)
+	return unique.size
+}
+console.log(uniqueWords('Some things need tested. Tested functions need some boudaries'))
