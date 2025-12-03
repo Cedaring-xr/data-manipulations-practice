@@ -1,3 +1,3 @@
-// 21. Write a function that takes in a Date object and returns a formatted string
+// 1. Write a function that takes in a Date object and returns a formatted string
 
-// 26. Write a function that validates a email address format using regex
+// 2. Write a function that validates a email address format using regex
